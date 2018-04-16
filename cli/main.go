@@ -90,7 +90,7 @@ func main() {
 		},
 		cli.StringFlag{
 			Name:  "root",
-			Value: "/run/runv",
+			Value: "/var/run/docker/libcontainerd/containerd",
 			Usage: "root directory for storage of container state (this should be located in tmpfs)",
 		},
 		cli.StringFlag{
